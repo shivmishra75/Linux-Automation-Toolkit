@@ -1,189 +1,92 @@
-# DevOps Linux Automation Toolkit
+# 🚀 Linux Automation Toolkit
 
-A practical collection of Bash automation scripts designed to simplify common Linux system administration and DevOps tasks.
+A practical DevOps-focused project built using Bash scripting to automate common Linux system tasks such as file management, networking, system monitoring, and log analysis.
 
-This project demonstrates real-world automation skills including system monitoring, networking diagnostics, log analysis, file management, and backup automation.
 
-The toolkit is intended for DevOps engineers, system administrators, and learners who want to automate routine server tasks using Bash scripting.
+## 📌 Project Overview
 
----
+This project is divided into two major parts:
 
-## Project Overview
+* **Basic Scripts** → Covers fundamental Linux operations using Bash
+* **Automation Scripts (Advanced)** → Focuses on real-world automation use cases (in progress)
 
-Modern DevOps environments rely heavily on automation.  
-This repository provides lightweight Bash utilities that help automate daily operational tasks on Linux servers.
+The goal of this project is to build strong hands-on skills required for **DevOps and System Engineering roles**.
 
-These scripts are useful for:
-
-- System monitoring
-- Network troubleshooting
-- Log analysis
-- File management
-- Automated backups
-
-All scripts are written using standard Linux tools such as `grep`, `awk`, `tar`, `ps`, `df`, and `free`.
-
-## Repository Structure
+## 📂 Project Structure
 
 ```
 Linux-Automation-Toolkit/
 │
-├── Automation
-│   └── auto_backup.sh
+├── Basic_Scripts/
+│   ├── Automation/
+│   ├── File_Management/
+│   ├── Log_Analysis/
+│   ├── Networking/
+│   ├── System_Monitoring/
 │
-├── File_Management
-│   ├── check_file_exists.sh
-│   ├── check_directory_exists.sh
-│   └── check_permissions.sh
+├── Scripts/
+│   └── File_Management/   (Advanced automation scripts)
 │
-├── Networking
-│   ├── ping_host.sh
-│   ├── dns_lookup.sh
-│   ├── check_port.sh
-│   ├── get_public_ip.sh
-│   ├── get_local_ip.sh
-│   └── traceroute_host.sh
-│
-├── System_Monitoring
-│   ├── cpu_usage.sh
-│   ├── memory_usage.sh
-│   ├── disk_usage.sh
-│   └── running_processes.sh
-│
-└── Log_Analysis
-    ├── failed_login_detector.sh
-    └── nginx_error_summary.sh
+└── README.md
 ```
 
-## Features
+## 🛠️ Technologies Used
 
-### System Monitoring
-Scripts to monitor server health and system resources.
+* Bash Scripting
+* Linux (Kali / Ubuntu)
+* Git & GitHub
 
-Examples:
-- CPU usage monitoring
-- Memory usage tracking
-- Disk space analysis
-- Running process inspection
+## 📁 Modules Description
 
-### Networking Diagnostics
-Utilities for debugging network connectivity issues.
+### 🔹 Basic Scripts
 
-Examples:
-- Host connectivity testing
-- DNS resolution
-- Port availability checks
-- Public and local IP discovery
-- Network route tracing
+| Module            | Description                      |
+| ----------------- | -------------------------------- |
+| File Management   | File & directory operations      |
+| Networking        | Network-related utilities        |
+| System Monitoring | CPU, memory, disk usage          |
+| Log Analysis      | Log parsing and error detection  |
+| Automation        | Backup and system health scripts |
 
-### File Management
-Basic file and directory validation scripts.
+### 🚀 Automation Scripts (Advanced)
 
-Examples:
-- Check if file exists
-- Check directory availability
-- File permission verification
+Currently implemented:
 
-### Log Analysis
-Scripts to analyze Linux server logs for troubleshooting and security insights.
+* File Management Automation
 
-Examples:
-- Detect failed SSH login attempts
-- Summarize Nginx error logs
+Upcoming:
 
-### Backup Automation
-Simple automated backup solution using compressed archives.
+* Log Management Automation
+* Cron Job Scheduling
+* System Monitoring Automation
+* Alerting Scripts
 
-Example:
-- Directory backup with timestamped archive
+## ⚙️ How to Run Scripts
 
-## Technologies Used
-
-This project primarily uses standard Linux command-line tools:
-
-- Bash Shell Scripting
-- Linux CLI utilities
-- awk
-- grep
-- sed
-- tar
-- ps
-- df
-- free
-- netstat / ss
-- traceroute
-
-These tools are widely used in DevOps environments for automation and troubleshooting.
-
-## Getting Started
-
-### Clone the Repository
-
-```
-git clone https://github.com/shivmishra75/Linux-Automation-Toolkit.git
-```
-
-### Navigate to the Project
-
-```
-cd Linux-Automation-Toolkit
-```
-
-### Make Scripts Executable
-
-```
+```bash
 chmod +x script_name.sh
+./script_name.sh
 ```
 
-### Run a Script
+## 🎯 Key Learning Outcomes
 
-Example:
+* Strong understanding of Linux commands
+* Hands-on experience with Bash scripting
+* Real-world DevOps automation concepts
+* Project structuring and Git workflow
 
-```
-./cpu_usage.sh
-```
-## Example Use Cases
+## 📌 Future Improvements
 
-This toolkit can be used in real-world DevOps workflows such as:
+* Add cron-based automation
+* Implement log rotation system
+* Integrate monitoring alerts
+* Add Docker & CI/CD integration
 
-- Monitoring server resource utilization
-- Diagnosing network connectivity issues
-- Automating backup operations
-- Investigating login security incidents
-- Analyzing web server errors
-- Troubleshooting production servers
+## 👨‍💻 Author
 
-## Learning Goals
+Shiv Mishra
+Aspiring DevOps Engineer | Python Developer
 
-This project was built to practice:
+## ⭐ Support
 
-- Linux system administration
-- Bash scripting automation
-- DevOps troubleshooting workflows
-- Log parsing and analysis
-- Network diagnostics
-- Automation best practices
-
-## Future Improvements
-
-Possible future enhancements include:
-
-- Docker container monitoring scripts
-- Website uptime monitoring
-- SSL certificate expiry checker
-- Automated server health reports
-- Cron-based automation workflows
-
-## Author
-
-**Shiv Mishra**
-
-Aspiring DevOps Engineer  
-Linux Automation Enthusiast  
-
-GitHub:  
-https://github.com/shivmishra75
-
-## License
-
-This project is open source and available under the MIT License.
+If you found this project helpful, consider giving it a star ⭐ on GitHub!
