@@ -1,9 +1,8 @@
 # 🚀 Linux Automation Toolkit
 
-![Linux Banner](https://images.unsplash.com/photo-1518770660439-4636190af475)
+![Linux Automation Toolkit](https://media.licdn.com/dms/image/v2/D5612AQEGjij8r7nYpw/article-cover_image-shrink_720_1280/B56ZtgwqBFJcAI-/0/1766854934135?e=2147483647&t=dCOUuNVeumX2Z1JjMDoRtlaRzmm3x4ywaUkgv68_mgU&v=beta)
 
 > 🔧 A powerful collection of Bash scripts to automate daily Linux system administration tasks.
-
 
 ## 👨‍💻 Author
 
