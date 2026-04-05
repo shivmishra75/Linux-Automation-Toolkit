@@ -1,92 +1,120 @@
 # 🚀 Linux Automation Toolkit
 
-A practical DevOps-focused project built using Bash scripting to automate common Linux system tasks such as file management, networking, system monitoring, and log analysis.
+![Linux Banner](https://images.unsplash.com/photo-1518770660439-4636190af475)
 
+> 🔧 A powerful collection of Bash scripts to automate daily Linux system administration tasks.
 
-## 📌 Project Overview
-
-This project is divided into two major parts:
-
-* **Basic Scripts** → Covers fundamental Linux operations using Bash
-* **Automation Scripts (Advanced)** → Focuses on real-world automation use cases (in progress)
-
-The goal of this project is to build strong hands-on skills required for **DevOps and System Engineering roles**.
-
-## 📂 Project Structure
-
-```
-Linux-Automation-Toolkit/
-│
-├── Basic_Scripts/
-│   ├── Automation/
-│   ├── File_Management/
-│   ├── Log_Analysis/
-│   ├── Networking/
-│   ├── System_Monitoring/
-│
-├── Scripts/
-│   └── File_Management/   (Advanced automation scripts)
-│
-└── README.md
-```
-
-## 🛠️ Technologies Used
-
-* Bash Scripting
-* Linux (Kali / Ubuntu)
-* Git & GitHub
-
-## 📁 Modules Description
-
-### 🔹 Basic Scripts
-
-| Module            | Description                      |
-| ----------------- | -------------------------------- |
-| File Management   | File & directory operations      |
-| Networking        | Network-related utilities        |
-| System Monitoring | CPU, memory, disk usage          |
-| Log Analysis      | Log parsing and error detection  |
-| Automation        | Backup and system health scripts |
-
-### 🚀 Automation Scripts (Advanced)
-
-Currently implemented:
-
-* File Management Automation
-
-Upcoming:
-
-* Log Management Automation
-* Cron Job Scheduling
-* System Monitoring Automation
-* Alerting Scripts
-
-## ⚙️ How to Run Scripts
-
-```bash
-chmod +x script_name.sh
-./script_name.sh
-```
-
-## 🎯 Key Learning Outcomes
-
-* Strong understanding of Linux commands
-* Hands-on experience with Bash scripting
-* Real-world DevOps automation concepts
-* Project structuring and Git workflow
-
-## 📌 Future Improvements
-
-* Add cron-based automation
-* Implement log rotation system
-* Integrate monitoring alerts
-* Add Docker & CI/CD integration
 
 ## 👨‍💻 Author
 
-Shiv Mishra
-Aspiring DevOps Engineer | Python Developer
+**Shiv Mishra**
+
+## 📌 Overview
+
+**Linux Automation Toolkit** is a structured set of Bash scripts designed to simplify and automate repetitive Linux operations.
+
+This project demonstrates strong fundamentals in:
+
+* Linux system administration
+* Shell scripting
+* Automation & troubleshooting
+
+
+## 🗂️ Project Structure
+
+```
+Basic_Scripts/
+│
+├── Backup_and_Health/
+│   ├── auto_backup.sh
+│   ├── server_health_report.sh
+│
+├── File_Management/
+│   ├── check_directory_exists.sh
+│   ├── check_file_exists.sh
+│   ├── check_permissions.sh
+│
+├── Log_Analysis/
+│   ├── failed_login_detector.sh
+│   ├── nginx_error_summary.sh
+│
+├── Networking/
+│   ├── check_port.sh
+│   ├── dns_lookup.sh
+│   ├── get_local_ip.sh
+│   ├── get_public_ip.sh
+│   ├── ping_host.sh
+│   ├── traceroute_host.sh
+│
+├── System_Monitoring/
+│   ├── cpu_usage.sh
+│   ├── disk_usage.sh
+│   ├── memory_usage.sh
+│   ├── running_processes.sh
+```
+
+## ⚡ Features
+
+* 🔧 Automates daily Linux tasks
+* 📊 System monitoring scripts
+* 🌐 Networking troubleshooting tools
+* 📁 File and permission management
+* 📜 Log analysis utilities
+* ⚡ Lightweight and fast
+
+
+## 🛠️ Tech Stack
+
+* Bash Scripting
+* Linux CLI Tools (`grep`, `awk`, `sed`, `netstat`, `df`)
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/shivmishra75/Linux-Automation-Toolkit.git
+cd Linux-Automation-Toolkit
+```
+
+### 2️⃣ Make Scripts Executable
+
+```bash
+chmod +x Basic_Scripts/**/*.sh
+```
+
+### 3️⃣ Run Script
+
+```bash
+./Basic_Scripts/System_Monitoring/cpu_usage.sh
+```
+
+## 📊 Use Cases
+
+* Monitor system performance 📈
+* Detect failed login attempts 🔐
+* Debug network issues 🌍
+* Automate backups 💾
+* Analyze logs 📜
+
+## 💡 Highlights
+
+✔️ Beginner-friendly
+✔️ Clean project structure
+✔️ Real-world use cases
+✔️ Great for DevOps portfolio
+
+## 📈 Future Enhancements
+
+* ⏱️ Cron job integration
+* 🚨 Alert system
+* 🐳 Docker support
+* 🧰 CLI-based toolkit
+
+## 🤝 Contributing
+
+Pull requests are welcome! Feel free to fork and improve.
 
 ## ⭐ Support
 
-If you found this project helpful, consider giving it a star ⭐ on GitHub!
+If you like this project, don’t forget to **star ⭐ the repository**!
